@@ -25,7 +25,7 @@ namespace AllowanceManager
         {
             InitializeComponent();
 
-            string connstr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\yanew\source\repos\AllowanceManager\AllowanceManager\AllowanceManager\maindb.accdb";
+            string connstr = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=.\maindb.accdb";
             DBCon = new OleDbConnection(connstr);
 
             DBCon.Open();
