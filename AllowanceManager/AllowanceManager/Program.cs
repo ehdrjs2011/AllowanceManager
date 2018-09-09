@@ -16,7 +16,7 @@ namespace AllowanceManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AllowanceManager());
+            Application.Run(new MainDlg());
         }
     }
 }
