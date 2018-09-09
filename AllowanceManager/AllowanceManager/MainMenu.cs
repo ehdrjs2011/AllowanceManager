@@ -22,15 +22,24 @@ namespace AllowanceManager
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void AddMoney_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void UseMoney_Click(object sender, EventArgs e)
         {
-            Menu_AddAllowance menu = new Menu_AddAllowance();
-            panel1.Controls.Add(menu);
+
+        }
+
+        private void UseList_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Quit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
