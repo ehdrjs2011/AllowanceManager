@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AllowanceManager
 {
-    public partial class AllowanceManager : Form
+    public partial class Menu_AddAllowance : Form
     {
-        public AllowanceManager()
+        public Menu_AddAllowance()
         {
             InitializeComponent();
-        }
-
-        private void AllowanceManager_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
